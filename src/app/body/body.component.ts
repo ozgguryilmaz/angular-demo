@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
+  public firstName  = 'test app';
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  welcomeUser(){
+   return this.firstName + ' from method';
   }
 
 }
