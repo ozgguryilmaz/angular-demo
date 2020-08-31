@@ -18,4 +18,8 @@ export class BodyComponent implements OnInit {
    return this.firstName + ' from method';
   }
 
+  onClick(){
+    alert('test app running!');
+  }
+
 }
